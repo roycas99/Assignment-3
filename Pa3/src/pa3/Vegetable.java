@@ -12,6 +12,18 @@ public class Vegetable extends Produce{
 	
 		
 	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
 	@Override
 	public String toString() {
 		return "[price=" + price + ", quantity=" + quantity +" ," + super.getName()+ " is a vegetable]";
